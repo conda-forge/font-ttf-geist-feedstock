@@ -1,5 +1,5 @@
 context:
-  version: "1.8.2"
+  version: "1.9.0"
 
 package:
   name: font-ttf-geist
@@ -13,7 +13,7 @@ source:
   # 1.8.0 (2026-03-03) sorts higher but is three months older and ships older binaries.
   # See https://github.com/vercel/geist-font/issues/208 and conda-forge.yml for bot pinning.
   url: https://github.com/vercel/geist-font/releases/download/v${{ version }}/geist-font-v${{ version }}.zip
-  sha256: 43ffb66912b1c49e40c371d96e86b3b3dab42db83eb2d0c8a17321210394c4c7
+  sha256: 1f2dd9ea90e68d0358a1d234a5f156807b2c3e0e295d78d87980a6dbad1fa58c
 
 build:
   number: 0
